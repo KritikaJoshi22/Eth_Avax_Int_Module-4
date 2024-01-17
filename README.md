@@ -1,4 +1,4 @@
-# DEGEEN TOKEN
+# DEGEN TOKEN
 
 This Solidity program encapsulates the code for an ERC20 token named "DEGEN" with the symbol "DGN."
 The token is specifically crafted for facilitating the redemption of in-game purchases.
