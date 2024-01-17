@@ -1,8 +1,9 @@
 import { ethers } from "hardhat";
+import { CONTRACT, DEPLOYER } from "../helper";
 
-const b_address = "0x17e46765bfcD411f13192AF6602EC7dCE95E1385";
+const b_address = CONTRACT;
 const itemId = 0;
-const deployer = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+const deployer = DEPLOYER;
 
 export async function rateOwnerChange() {
   console.log(`contract at ${b_address}`);
@@ -13,7 +14,7 @@ export async function rateOwnerChange() {
 
   console.log("Balance: before redeem " + balanceBefore);
 
-  const transferTx = await _contract.redeemToken(itemId);
+  const transferTx = await _contract.redeemToken(itemId, { from: deployer });
 
   const balanceAfter = await _contract.getBalance(deployer);
 

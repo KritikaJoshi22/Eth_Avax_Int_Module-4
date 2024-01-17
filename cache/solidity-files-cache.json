@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\MetaCrafters\\module_4\\contracts\\aval_20.sol": {
-      "lastModificationDate": 1701433852514,
-      "contentHash": "9e717123162518c65a3f5020ae9e352c",
+    "D:\\MetaCrafters\\Avax-Intermediate\\module_4 - Copy\\contracts\\aval_20.sol": {
+      "lastModificationDate": 1705228148009,
+      "contentHash": "3a7dc617462c171e8d80768cd805c37b",
       "sourceName": "contracts/aval_20.sol",
       "solcConfig": {
         "version": "0.8.21",
@@ -39,8 +39,8 @@
         "aval_20"
       ]
     },
-    "D:\\MetaCrafters\\module_4\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1700688652114,
+    "D:\\MetaCrafters\\Avax-Intermediate\\module_4 - Copy\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1705224903086,
       "contentHash": "c6375ef25e84c90b3d15f9ec4eef218f",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -80,8 +80,8 @@
         "ERC20"
       ]
     },
-    "D:\\MetaCrafters\\module_4\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1700688652076,
+    "D:\\MetaCrafters\\Avax-Intermediate\\module_4 - Copy\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1705224902903,
       "contentHash": "01c847e2af51f468cb66d9ed83bc3cec",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -116,8 +116,8 @@
         "Context"
       ]
     },
-    "D:\\MetaCrafters\\module_4\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1700688652084,
+    "D:\\MetaCrafters\\Avax-Intermediate\\module_4 - Copy\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+      "lastModificationDate": 1705224902907,
       "contentHash": "4aefc698f77ecbace7f401257dfe182d",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
@@ -154,44 +154,8 @@
         "IERC721Errors"
       ]
     },
-    "D:\\MetaCrafters\\module_4\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1700688652208,
-      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.21",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "D:\\MetaCrafters\\module_4\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1700688652214,
+    "D:\\MetaCrafters\\Avax-Intermediate\\module_4 - Copy\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1705224906490,
       "contentHash": "4c02fa6f7ae7b6c289cef80424f0c875",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -226,6 +190,42 @@
       ],
       "artifacts": [
         "IERC20Metadata"
+      ]
+    },
+    "D:\\MetaCrafters\\Avax-Intermediate\\module_4 - Copy\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1705224906489,
+      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.21",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
       ]
     }
   }

@@ -1,8 +1,9 @@
 import { ethers } from "hardhat";
+import { CONTRACT, DEPLOYER } from "../helper";
 
-const b_address = "0x17e46765bfcD411f13192AF6602EC7dCE95E1385";
+const b_address = CONTRACT;
 const amount = 5;
-const deployer = "0x4fE333470b78C5896178780aa9483bc8F6085418";
+const deployer = DEPLOYER;
 
 export async function rateOwnerChange() {
   console.log(`Rate at ${b_address}`);

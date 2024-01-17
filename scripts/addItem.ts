@@ -1,9 +1,10 @@
 import { ethers } from "hardhat";
+import { CONTRACT, DEPLOYER } from "../helper";
 
-const b_address = "0x17e46765bfcD411f13192AF6602EC7dCE95E1385";
-const itemName = "Shoes";
+const b_address = CONTRACT;
+const itemName = "hat";
 const itemPrice = 30;
-const deployer = "0x4fE333470b78C5896178780aa9483bc8F6085418";
+const deployer = DEPLOYER;
 
 export async function rateOwnerChange() {
   console.log(`Aval_20 at ${b_address}`);

@@ -58,6 +58,7 @@ export interface Aval_20Interface extends Interface {
       | "totalSupply"
       | "transfer"
       | "transferFrom"
+      | "withdraw"
   ): FunctionFragment;
 
   getEvent(nameOrSignatureOrTopic: "Approval" | "Transfer"): EventFragment;
@@ -113,6 +114,7 @@ export interface Aval_20Interface extends Interface {
     functionFragment: "transferFrom",
     values: [AddressLike, AddressLike, BigNumberish]
   ): string;
+  encodeFunctionData(functionFragment: "withdraw", values?: undefined): string;
 
   decodeFunctionResult(functionFragment: "addItems", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "allowance", data: BytesLike): Result;
@@ -144,6 +146,7 @@ export interface Aval_20Interface extends Interface {
     functionFragment: "transferFrom",
     data: BytesLike
   ): Result;
+  decodeFunctionResult(functionFragment: "withdraw", data: BytesLike): Result;
 }
 
 export namespace ApprovalEvent {
@@ -291,6 +294,8 @@ export interface Aval_20 extends BaseContract {
     "nonpayable"
   >;
 
+  withdraw: TypedContractMethod<[], [void], "nonpayable">;
+
   getFunction<T extends ContractMethod = ContractMethod>(
     key: string | FunctionFragment
   ): T;
@@ -379,6 +384,9 @@ export interface Aval_20 extends BaseContract {
     [boolean],
     "nonpayable"
   >;
+  getFunction(
+    nameOrSignature: "withdraw"
+  ): TypedContractMethod<[], [void], "nonpayable">;
 
   getEvent(
     key: "Approval"

@@ -40,7 +40,7 @@ The contract is deployed on the Avalanche Fuji-C chain at the address
 
 ### Authors
 
-Parth Verma
+Kritika Joshi
 
 ### License
 
